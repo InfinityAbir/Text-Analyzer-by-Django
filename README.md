@@ -1,4 +1,5 @@
 # Text-Analyzer-by-Django
+Text Utils
 Text Utils is a simple Django web application that allows users to analyze and manipulate text. Users can input text and apply operations such as removing punctuation, converting to uppercase, and removing new lines. The application is built using Django for the backend, Bootstrap for the frontend, and provides a clean, user-friendly interface.
 Features
 
@@ -74,8 +75,6 @@ Enter text in the provided textarea.
 Select one or more text operations (Remove Punctuation, Uppercase, Remove New Lines).
 Click the "Analyze Text" button to see the processed text on the analyze page.
 
-Screenshots
-(Optional: You can add screenshots of your application here. Use GitHub's image hosting or an external service like Imgur.)
 Future Improvements
 
 Add more text manipulation features (e.g., word count, character count, lowercase conversion).
@@ -91,8 +90,3 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit (git commit -m "Add feature").
 Push to the branch (git push origin feature-branch).
 Create a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Contact
-For any questions or suggestions, feel free to open an issue or contact me at your-email@example.com.
