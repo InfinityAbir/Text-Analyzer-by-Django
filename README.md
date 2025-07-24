@@ -27,7 +27,7 @@ Virtualenv (recommended for isolated environments)
 Steps
 
 Clone the Repository:
-git clone https://github.com/your-username/text-utils.git
+git clone https://github.com/IndiniryAbir/text-utils.git
 cd text-utils
 
 
