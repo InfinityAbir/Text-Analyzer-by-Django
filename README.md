@@ -27,7 +27,7 @@ Virtualenv (recommended for isolated environments)
 Steps
 
 Clone the Repository:
-git clone https://github.com/IndiniryAbir/text-utils.git
+git clone https:(https://github.com/InfinityAbir/Text-Analyzer-by-Django)
 cd text-utils
 
 
