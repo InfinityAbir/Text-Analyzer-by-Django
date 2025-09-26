@@ -6,11 +6,16 @@
 
 ## ✨ Features
 
-* **Remove Punctuation:** Easily strip all common punctuation marks from the text.
-* **Convert to Uppercase:** Transform the entire input text to all capital letters.
-* **Remove New Lines:** Eliminate newline characters (`\n`) to merge the text into a single block.
-* **Responsive Design:** Built with **Bootstrap 5** for seamless viewing on desktop and mobile devices.
-* **Simple Navigation:** Includes a basic navbar with placeholders for Home, About Us, and Contact Us pages.
+* **Remove Punctuation:** Strip all common punctuation marks from your text.
+* **Convert to Uppercase:** Transform the text into all capital letters.
+* **Remove New Lines:** Merge your text into a single block by removing newline characters.
+* **Word Count:** Count the number of words in the text.
+* **Estimated Reading Time:** Approximate the time it will take to read the text.
+* **Keyword Density:** Identify the top keywords and their frequency, ignoring common stopwords.
+* **Text Summary:** Generate a short summary of the input text.
+* **Sentiment Analysis:** Detect the overall sentiment as Positive, Negative, or Neutral.
+* **Responsive Design:** Works well on desktop and mobile devices using **Bootstrap 5**.
+* **Simple Navigation:** Includes a basic navbar for Home, GitHub, and Contact links.
 
 ---
 
