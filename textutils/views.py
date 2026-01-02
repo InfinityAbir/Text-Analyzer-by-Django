@@ -64,9 +64,10 @@ def analyze(request):
         operations.append("Removed New Lines")
 
     if removepunc == "on":
-        punctuation = '''!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''
-        processed = "".join([ch for ch in processed if ch not in punctuation])
+    # remove ALL punctuation including unicode (… “ ” — etc.)
+        processed = re.sub(r"[^\w\s]", "", processed)
         operations.append("Removed Punctuation")
+
 
     if fullcaps == "on":
         processed = processed.upper()
