@@ -36,39 +36,43 @@ Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-* **Python 3.8+**
-* **pip** (Python package manager)
-* **Virtualenv** (Highly recommended for dependency isolation)
+- Python 3.8+
+- pip
+- Virtual environment tool such as `venv`
 
-### Steps
+---
 
-1.  **Clone the Repository:**
+### Install and run
+
     ```bash
-    git clone [https://github.com/InfinityAbir/Text-Analyzer-by-Django](https://github.com/InfinityAbir/Text-Analyzer-by-Django)
-    cd text-utils
-    ```
+# 1) Clone the repository
+    git clone https://github.com/InfinityAbir/Text-Analyzer-by-Django.git
+    cd Text-Analyzer-by-Django
 
-2.  **Create and Activate Virtual Environment:**
-    ```bash
+# 2) Create virtual environment
     python -m venv venv
-    # For Linux/macOS
+
+# 3) Activate the virtual environment
+# Linux / macOS:
     source venv/bin/activate
-    # For Windows
-    # venv\Scripts\activate
-    ```
+# Windows:
+    venv\Scripts\activate
 
-3.  **Install Dependencies:**
-    ```bash
-    pip install django
-    ```
+# 4) Install required packages
+# If requirements.txt exists:
+    pip install -r requirements.txt
 
-4.  **Run the Development Server:**
-    ```bash
+# If requirements.txt is not available, run:
+    pip install django textblob
+
+# 5) Download TextBlob data (required for sentiment analysis)
+    python -m textblob.download_corpora
+
+# 6) Run the development server
     python manage.py runserver
-    ```
 
-5.  **Access the Application:**
-    Open your browser and navigate to: **`http://127.0.0.1:8000`**
+# Open in your browser:
+    http://127.0.0.1:8000
 
 ---
 
